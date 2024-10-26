@@ -1,0 +1,7 @@
+services:
+  api:
+    build:
+      dockerfile: ./infrastructure/api/Dockerfile
+    ports:
+        - "8080:80"
+    container_name: dream_share_api
